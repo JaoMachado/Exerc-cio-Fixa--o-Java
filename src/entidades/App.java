@@ -13,5 +13,8 @@ public class App {
         Computador pc = new Computador();
         pc.adicionar(mouse, monitor);
         pc.iniciar();
+
+        Pessoa p = new Pessoa();
+        p.nome = "Nabuco";
     }
 }
